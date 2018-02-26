@@ -7,7 +7,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -163,36 +162,35 @@
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="feedCell" rowHeight="450" id="mFO-1i-tvi" customClass="FeedCell" customModule="AC_iOS_Final" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="450"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mFO-1i-tvi" id="GSd-56-WnV" customClass="FeedCell" customModule="AC_iOS_Final" customModuleProvider="target">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mFO-1i-tvi" id="GSd-56-WnV">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="449.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qmy-qe-u9x">
-                                                    <rect key="frame" x="25" y="396" width="325" height="33"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qmy-qe-u9x">
+                                                    <rect key="frame" x="8" y="383" width="359" height="58.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" translatesAutoresizingMaskIntoConstraints="NO" id="Pds-eO-wgY">
-                                                    <rect key="frame" x="0.0" y="11" width="375" height="375"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" secondItem="Pds-eO-wgY" secondAttribute="height" multiplier="1:1" id="Z0O-Ii-AhD"/>
-                                                    </constraints>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Pds-eO-wgY">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="Pds-eO-wgY" firstAttribute="centerX" secondItem="GSd-56-WnV" secondAttribute="centerX" id="9ow-kQ-StV"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="qmy-qe-u9x" secondAttribute="trailing" constant="10" id="DrJ-e9-uEk"/>
-                                                <constraint firstItem="Pds-eO-wgY" firstAttribute="top" secondItem="GSd-56-WnV" secondAttribute="topMargin" id="Rs5-da-zor"/>
-                                                <constraint firstItem="Pds-eO-wgY" firstAttribute="width" secondItem="GSd-56-WnV" secondAttribute="width" id="a61-hD-LMT"/>
-                                                <constraint firstItem="qmy-qe-u9x" firstAttribute="leading" secondItem="GSd-56-WnV" secondAttribute="leadingMargin" constant="10" id="cCY-B9-GCt"/>
-                                                <constraint firstItem="qmy-qe-u9x" firstAttribute="top" secondItem="Pds-eO-wgY" secondAttribute="bottom" constant="10" id="hQn-es-7kI"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="qmy-qe-u9x" secondAttribute="bottom" constant="10" id="qYi-hC-1j6"/>
+                                                <constraint firstItem="qmy-qe-u9x" firstAttribute="top" secondItem="Pds-eO-wgY" secondAttribute="bottom" constant="8" id="0mW-nE-Z6T"/>
+                                                <constraint firstItem="Pds-eO-wgY" firstAttribute="width" secondItem="GSd-56-WnV" secondAttribute="width" id="1Mq-4u-ujo"/>
+                                                <constraint firstAttribute="trailing" secondItem="qmy-qe-u9x" secondAttribute="trailing" constant="8" id="Gpa-70-asF"/>
+                                                <constraint firstItem="qmy-qe-u9x" firstAttribute="leading" secondItem="GSd-56-WnV" secondAttribute="leading" constant="8" id="Y4h-kg-Md3"/>
+                                                <constraint firstItem="qmy-qe-u9x" firstAttribute="centerX" secondItem="Pds-eO-wgY" secondAttribute="centerX" id="ar8-oT-jId"/>
+                                                <constraint firstItem="Pds-eO-wgY" firstAttribute="top" secondItem="GSd-56-WnV" secondAttribute="top" id="mrc-N2-KSt"/>
+                                                <constraint firstAttribute="bottom" secondItem="qmy-qe-u9x" secondAttribute="bottom" constant="8" id="o2x-as-yjK"/>
+                                                <constraint firstItem="Pds-eO-wgY" firstAttribute="centerX" secondItem="GSd-56-WnV" secondAttribute="centerX" id="ueR-YU-aFx"/>
+                                                <constraint firstItem="Pds-eO-wgY" firstAttribute="height" secondItem="GSd-56-WnV" secondAttribute="width" id="yMI-je-G53"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="commentLabel" destination="qmy-qe-u9x" id="7fZ-tL-nGd"/>
-                                            <outlet property="postImageView" destination="Pds-eO-wgY" id="DhC-eH-Prj"/>
+                                            <outlet property="commentLabel" destination="qmy-qe-u9x" id="bL7-AJ-cuv"/>
+                                            <outlet property="postImageView" destination="Pds-eO-wgY" id="lrR-DP-y7w"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

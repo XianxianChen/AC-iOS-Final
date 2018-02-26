@@ -21,9 +21,9 @@ class FeedViewController: UIViewController {
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
-       self.tableView.estimatedRowHeight = 450
+        self.tableView.estimatedRowHeight = 500
         self.tableView.rowHeight = UITableViewAutomaticDimension
-        //self.tableView.register(FeedCell.self, forCellReuseIdentifier: "feedCell")
+     
         loadPosts()
     }
     
@@ -65,17 +65,20 @@ extension FeedViewController: UITableViewDataSource {
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "feedCell", for: indexPath) as! FeedCell
-        
-        if let imageUrl = URL.init(string: posts[indexPath.row].imageURL){
-        do {
-        let imageData = try Data.init(contentsOf: imageUrl)
-        let image = UIImage(data: imageData)
-        cell.postImageView?.image = image
-        } catch {
-            print("imageData error: \(error)")
-        }
-        }
         cell.commentLabel?.text = posts[indexPath.row].comment
+        cell.postImageView.image = nil
+        if let imageUrl = URL.init(string: posts[indexPath.row].imageURL){
+            do {
+                let imageData = try Data.init(contentsOf: imageUrl)
+                let image = UIImage(data: imageData)
+                DispatchQueue.main.async {
+                    cell.postImageView?.image = image
+                    cell.setNeedsLayout()
+                }
+            } catch {
+                print("imageData error: \(error)")
+            }
+        }
         return cell
     }
 }

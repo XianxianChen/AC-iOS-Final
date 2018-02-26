@@ -21,7 +21,7 @@
 		8145EE76204472060021FAB3 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8145EE75204472060021FAB3 /* FeedViewController.swift */; };
 		8145EE78204479430021FAB3 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8145EE77204479430021FAB3 /* UploadViewController.swift */; };
 		8145EE7C2044A5AE0021FAB3 /* DBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8145EE7B2044A5AE0021FAB3 /* DBService.swift */; };
-		8145EE7E2044B6EF0021FAB3 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8145EE7D2044B6EF0021FAB3 /* FeedCell.swift */; };
+		8145EE812044CE960021FAB3 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8145EE802044CE960021FAB3 /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +42,7 @@
 		8145EE75204472060021FAB3 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		8145EE77204479430021FAB3 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
 		8145EE7B2044A5AE0021FAB3 /* DBService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBService.swift; sourceTree = "<group>"; };
-		8145EE7D2044B6EF0021FAB3 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		8145EE802044CE960021FAB3 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		82C8DA0CAD1939B85EE91862 /* Pods-AC-iOS-Final.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AC-iOS-Final.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AC-iOS-Final/Pods-AC-iOS-Final.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -150,7 +150,7 @@
 		8145EE7F2044B6F60021FAB3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				8145EE7D2044B6EF0021FAB3 /* FeedCell.swift */,
+				8145EE802044CE960021FAB3 /* FeedCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -296,7 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8145EE6B204469160021FAB3 /* UserProfile.swift in Sources */,
-				8145EE7E2044B6EF0021FAB3 /* FeedCell.swift in Sources */,
+				8145EE812044CE960021FAB3 /* FeedCell.swift in Sources */,
 				8145EE78204479430021FAB3 /* UploadViewController.swift in Sources */,
 				8145EE69204468D90021FAB3 /* FirebaseAPIClient.swift in Sources */,
 				54915217203F335F009C7138 /* LoginViewController.swift in Sources */,
