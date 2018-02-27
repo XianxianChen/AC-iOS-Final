@@ -6,11 +6,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AC-iOS-Final/View Controllers/UploadViewController.swift"
-            timestampString = "541382798.572493"
+            timestampString = "541385749.7493041"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "67"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AC-iOS-Final/View Controllers/UploadViewController.swift"
-            timestampString = "541382798.5733401"
+            timestampString = "541385749.749452"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "68"
@@ -42,29 +42,61 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AC-iOS-Final/View Controllers/UploadViewController.swift"
-            timestampString = "541382798.573707"
+            timestampString = "541385749.749547"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "87"
             endingLineNumber = "87"
-            landmarkName = "UploadViewController"
-            landmarkType = "3">
+            landmarkName = "checkAVAuthoriation()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AC-iOS-Final/View Controllers/UploadViewController.swift"
-            timestampString = "541382798.574133"
+            timestampString = "541385749.749631"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "89"
             endingLineNumber = "89"
-            landmarkName = "UploadViewController"
-            landmarkType = "3">
+            landmarkName = "checkAVAuthoriation()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AC_iOS_Final.UploadViewController.(checkAVAuthoriation in _B0BBF73E20DB562D2062DD90F4AB187E)() -&gt; ()"
+                  moduleName = "AC-iOS-Final"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/c4q/Desktop/IOSProjectsFolder/Unit6AppFolder/AC-iOS-Final/AC-iOS-Final/AC-iOS-Final/View%20Controllers/UploadViewController.swift"
+                  timestampString = "541385749.935632"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "402">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in AC_iOS_Final.UploadViewController.(checkAVAuthoriation in _B0BBF73E20DB562D2062DD90F4AB187E)() -&gt; ()"
+                  moduleName = "AC-iOS-Final"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/c4q/Desktop/IOSProjectsFolder/Unit6AppFolder/AC-iOS-Final/AC-iOS-Final/AC-iOS-Final/View%20Controllers/UploadViewController.swift"
+                  timestampString = "541385749.938342"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "25">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -74,13 +106,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AC-iOS-Final/View Controllers/UploadViewController.swift"
-            timestampString = "541382798.574549"
+            timestampString = "541385749.74971"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "99"
             endingLineNumber = "99"
-            landmarkName = "UploadViewController"
-            landmarkType = "3">
+            landmarkName = "checkAVAuthoriation()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -90,13 +122,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AC-iOS-Final/View Controllers/UploadViewController.swift"
-            timestampString = "541382798.574935"
+            timestampString = "541385749.7497849"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "102"
             endingLineNumber = "102"
-            landmarkName = "UploadViewController"
-            landmarkType = "3">
+            landmarkName = "checkAVAuthoriation()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -106,13 +138,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AC-iOS-Final/View Controllers/UploadViewController.swift"
-            timestampString = "541382798.575312"
+            timestampString = "541385749.74986"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "97"
             endingLineNumber = "97"
-            landmarkName = "UploadViewController"
-            landmarkType = "3">
+            landmarkName = "checkAVAuthoriation()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -122,13 +154,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AC-iOS-Final/View Controllers/UploadViewController.swift"
-            timestampString = "541382798.575624"
+            timestampString = "541385749.7499501"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "91"
             endingLineNumber = "91"
-            landmarkName = "UploadViewController"
-            landmarkType = "3">
+            landmarkName = "checkAVAuthoriation()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -138,28 +170,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AC-iOS-Final/View Controllers/UploadViewController.swift"
-            timestampString = "541382798.575943"
+            timestampString = "541385749.750036"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "93"
             endingLineNumber = "93"
-            landmarkName = "UploadViewController"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AC-iOS-Final/View Controllers/UploadViewController.swift"
-            timestampString = "541382798.5763119"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
-            landmarkName = "showActionSheet()"
+            landmarkName = "checkAVAuthoriation()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -170,7 +186,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AC-iOS-Final/View Controllers/FeedViewController.swift"
-            timestampString = "541382798.576704"
+            timestampString = "541385749.750211"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "64"
@@ -186,7 +202,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AC-iOS-Final/View Controllers/FeedViewController.swift"
-            timestampString = "541382798.5768009"
+            timestampString = "541385749.750306"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "15"
@@ -202,7 +218,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AC-iOS-Final/View Controllers/FeedViewController.swift"
-            timestampString = "541382798.576878"
+            timestampString = "541385749.750401"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "36"
@@ -218,7 +234,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AC-iOS-Final/View Controllers/FeedViewController.swift"
-            timestampString = "541382798.576952"
+            timestampString = "541385749.750491"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "14"
@@ -234,7 +250,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AC-iOS-Final/View Controllers/FeedViewController.swift"
-            timestampString = "541382798.577022"
+            timestampString = "541385749.750592"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "13"

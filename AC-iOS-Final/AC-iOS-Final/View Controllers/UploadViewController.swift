@@ -59,14 +59,12 @@ class UploadViewController: UIViewController {
         let alert = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
         let camera = UIAlertAction(title: "Camera", style: .default) { [weak self](action) in
             self?.imagePickerViewController.sourceType = .camera
-  //          self?.checkAVAuthoriation()
-            self?.showPhotoLibrary()
+          self?.checkAVAuthoriation()
         }
 
         let album = UIAlertAction(title: "Choose from Album", style: .default) { [weak self](action) in
             self?.imagePickerViewController.sourceType = .photoLibrary
-          //  self?.checkAVAuthoriation()
-            self?.showPhotoLibrary()
+           self?.checkAVAuthoriation()
         }
         let cancel = UIAlertAction(title: "Cancel", style: .default, handler: nil)
         if UIImagePickerController.isSourceTypeAvailable(.camera) {
@@ -80,7 +78,7 @@ class UploadViewController: UIViewController {
     @IBAction func cameraButtonPressed(_ sender: UIButton) {
         showActionSheet()
     }
-    /*
+    
     private func checkAVAuthoriation() {
         let status = AVCaptureDevice.authorizationStatus(for: .video)
         switch status {
@@ -102,7 +100,7 @@ class UploadViewController: UIViewController {
             self.showPhotoLibrary()
         }
     }
- */
+ 
     func showPhotoLibrary() {
         present(imagePickerViewController, animated: true, completion: nil)
         
