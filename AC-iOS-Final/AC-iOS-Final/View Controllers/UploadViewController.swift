@@ -37,16 +37,17 @@ class UploadViewController: UIViewController {
         guard let image = currentSelectedImage else {
             showAlert(title: "NO image", message: "Please choose an image from album or using camera")
             return}
-            guard let comment = textView.text, comment != "Enter comment here" else {
+            guard let comment = textView.text, comment != "Enter comment here", comment != "" else {
                showAlert(title: "No comment", message: "Please write a comment")
                 return
             }
         // upload to firebase
         DBService.manager.addPost(comment: comment, image: image)
+        showAlert(title: "Success", message: "You've successfully created a post")
         self.imageView.image = nil
+        self.textView.text = "Enter comment here"
         self.currentSelectedImage = nil
         self.cameraButton.isHidden = false
-        showAlert(title: "Success", message: "You've successfully created a post")
     }
     func showAlert(title: String, message: String) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
@@ -139,7 +140,7 @@ extension UploadViewController: UITextViewDelegate {
     func textViewDidBeginEditing(_ textView: UITextView) {
         textView.text = ""
     }
-    
+  
 }
 
 
